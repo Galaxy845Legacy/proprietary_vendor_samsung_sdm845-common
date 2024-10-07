@@ -21,9 +21,6 @@ VENDOR_PATH=vendor/samsung/sdm845-common/proprietary
 
 PRODUCT_COPY_FILES += \
 	$(VENDOR_PATH)/bin/lpm:$(TARGET_COPY_OUT_SYSTEM)/bin/lpm \
-	$(VENDOR_PATH)/lib/hw/audio.playback_record.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.playback_record.default.so \
-    $(VENDOR_PATH)/lib/hw/audio.tms.default.so:$(TARGET_COPY_OUT_SYSTEM)/lib/hw/audio.tms.default.so \
-    $(VENDOR_PATH)/lib/libsecaudiocoreutils.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsecaudiocoreutils.so \
 	$(VENDOR_PATH)/lib64/libaptX_encoder.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libaptX_encoder.so \
 	$(VENDOR_PATH)/lib64/libmaet.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libmaet.so \
 	$(VENDOR_PATH)/lib64/libsxqk_skia.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/libsxqk_skia.so \
